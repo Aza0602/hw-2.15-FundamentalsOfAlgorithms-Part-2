@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.List;
+
 public interface IntegerList {
 
     // Добавление элемента.
@@ -38,6 +41,7 @@ public interface IntegerList {
     // Проверка на существование элемента.
     // Вернуть true/false;
     boolean contains(Integer item);
+
 
     // Поиск элемента.
     // Вернуть индекс элемента
